@@ -4,4 +4,6 @@ enum {
 
 struct Comp {
 int x,y;
-} comps[COMP_COUNT];
+} comps[COMP_COUNT] = {
+  [SCHEME] = {.x = ...}
+};
